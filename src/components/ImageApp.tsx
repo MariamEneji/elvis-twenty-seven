@@ -1,5 +1,3 @@
-import React from 'react'
-
 import pic1 from "../assets/twentyseven/pic1.jpg"
 import pic2 from "../assets/twentyseven/pic2.jpg"
 import pic3 from "../assets/twentyseven/pic3.jpg"
