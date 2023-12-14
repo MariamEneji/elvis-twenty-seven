@@ -56,7 +56,7 @@ const setIndex = (index: SetStateAction<number>) => {
     <div className='h-full absolute  z-10 w-full bg-black/40'/>
 {imageUrls.map(url => (
    
-    <img key={url} className=' flex-shrink-0 flex-grow-0 block w-full md:w-1/2 h-[20rem] md:h-[25rem] ' style={{translate: `${-100 * imageIndex}%`, transition: 'translate 300ms ease-in-out' }} src={url} alt=""
+    <img key={url} className=' flex-shrink-0 flex-grow-0 block w-full md:w-1/2 h-[25rem] md:h-[25rem] ' style={{translate: `${-100 * imageIndex}%`, transition: 'translate 300ms ease-in-out' }} src={url} alt=""
     
     />
 ))}
@@ -64,7 +64,7 @@ const setIndex = (index: SetStateAction<number>) => {
 
 </div>
 
-<div className=' z-10  flex md:text-xl text-white m-2  md:m-4  overflow-hidden' >
+<div className=' z-10  flex md:text-xl text-white   md:m-4  overflow-hidden' >
 {quotes.map(() => (
      <h1 className=' flex-shrink-0 flex-grow-0 w-full '  style={{translate: `${-100 * imageIndex}%`, transition: 'translate 300ms ease-in-out' }} >{quotes[quoteIndex]} </h1>
 ))}
