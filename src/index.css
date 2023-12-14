@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,30%), rgba(0,0,0,70%)),  url('assets/twentyseven/bg.avif');
+ 
+    
+
+}
+
+
+.btn > *{
+    stroke: white;
+    fill: black;
+}
+
+
+.btn:focus > *, .btn:focus-visible > * {
+    animation: squish 300ms ease-in-out;
+
+}
+
+
+.btn:hover > *, .btn:focus-visible > * {
+    scale: 1.2;
+}
+
+@keyframes squish {
+    50% {
+        scale: 1.4 0.6;
+    }
+}
