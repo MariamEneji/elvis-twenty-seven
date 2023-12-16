@@ -52,7 +52,7 @@ const setIndex = (index: SetStateAction<number>) => {
   return (
     <div className=' h-full font-quin flex flex-col justify-center items-center '>
 
-<div className='h-full w-[90%] md:w-[40%] flex relative overflow-hidden rounded-3xl  ' >
+<div className='h-full w-full md:w-[40%] flex relative overflow-hidden rounded-3xl  ' >
     <div className='h-full absolute  z-10 w-full bg-black/40'/>
 {imageUrls.map(url => (
    
