@@ -66,7 +66,7 @@ const setIndex = (index: SetStateAction<number>) => {
 
 <div className=' z-10  flex md:text-xl text-white w-[97%]   md:m-4  overflow-hidden' >
 {quotes.map(() => (
-     <h1 className=' flex-shrink-0 flex-grow-0 w-full mt-4 '  style={{translate: `${-100 * imageIndex}%`, transition: 'translate 300ms ease-in-out' }} >{quotes[quoteIndex]} </h1>
+     <h1 className=' flex-shrink-0 flex-grow-0 w-full '  style={{translate: `${-100 * imageIndex}%`, transition: 'translate 300ms ease-in-out' }} >{quotes[quoteIndex]} </h1>
 ))}
 </div>
 
